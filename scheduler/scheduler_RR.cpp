@@ -12,7 +12,7 @@
 
 
 bool Scheduler_RR::time_to_switch_processes(int tick_count, PCB &b) {
-
+	return false;
 }
 
 void Scheduler_RR::sort() {

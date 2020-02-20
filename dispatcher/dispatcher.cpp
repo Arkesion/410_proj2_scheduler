@@ -10,7 +10,7 @@
 
 
 PCB Dispatcher::get_from_CPU() {
-
+	return PCB();
 }
 
 void Dispatcher::put_on_CPU(PCB &process) {
@@ -18,5 +18,5 @@ void Dispatcher::put_on_CPU(PCB &process) {
 }
 
 bool Dispatcher::isValidJobOnCPU() {
-
+	return false;
 }
